@@ -7,7 +7,7 @@ jobs:
             - name: Simulation d'exécution d'un build
               run: echo "Build en cours"
     testJob:
-        runs-on: unbuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Simulation d'exécution de Test
               run: echo "Test en cours"
